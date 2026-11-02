@@ -3651,6 +3651,16 @@
 		)
 		(uuid "39d8ebda-216d-4f29-97b7-057ce908b3de")
 	)
+	(label "BUTTON_CE"
+		(at 139.7 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e21b64c-f0d0-4e02-9f7e-d4c71b1291bc")
+	)
 	(label "D4"
 		(at 133.35 50.8 0)
 		(effects
@@ -3681,7 +3691,7 @@
 		)
 		(uuid "981bd5c1-dbbe-4948-89d8-99e511b7021d")
 	)
-	(label "SW5_PU"
+	(label "SW6_PU"
 		(at 95.25 172.72 0)
 		(effects
 			(font
@@ -4839,6 +4849,129 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
+		(at 43.18 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c28d5bb-0eb3-44b1-84a2-cf07ef24e14d")
+		(property "Reference" "C11"
+			(at 45.466 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.466 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 43.18 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7a4bcb7-c6c7-47d5-926d-741f56a83e77")
+		)
+		(pin "2"
+			(uuid "f2aafeb8-e5ec-4672-962c-42b091d8dec7")
+		)
+		(instances
+			(project "shift-register-demo-board"
+				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
 		(at 245.11 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5190,121 +5323,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 43.18 72.39 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "477d8701-0f5f-412c-b0d4-9c49cb84d5b2")
-		(property "Reference" "C14"
-			(at 45.72 71.1262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 45.72 73.6662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 43.18 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eaad295b-6dea-4ddc-ad02-94e55fdaeff1")
-		)
-		(pin "2"
-			(uuid "3b01d69e-2e67-405c-9337-e9e964d75f2b")
-		)
-		(instances
-			(project "shift-register-demo-board"
-				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 30.48 26.67 0)
 		(unit 1)
@@ -5572,16 +5590,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 179.07 0)
+		(at 43.18 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60492e06-626d-41ec-ac9b-0b3ddb26e597")
-		(property "Reference" "C1"
-			(at 45.72 177.8062 0)
+		(uuid "641268e4-16a2-4be9-bcf2-fc4c292dccda")
+		(property "Reference" "C14"
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5590,7 +5607,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 45.72 180.3462 0)
+			(at 45.72 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5598,8 +5615,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 179.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,8 +5624,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
-			(at 43.18 179.07 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5617,7 +5634,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 179.07 0)
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,8 +5642,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 179.07 0)
+		(property "Manufacturer" "YAGEO"
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5634,8 +5651,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 43.18 179.07 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,8 +5660,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 43.18 179.07 0)
+		(property "LCSC Part #" "C14663"
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5670,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 43.18 179.07 0)
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5662,7 +5679,16 @@
 			)
 		)
 		(property "MP" ""
-			(at 43.18 179.07 0)
+			(at 43.18 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 43.18 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5671,15 +5697,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b95a184-f9d0-45e9-8d0a-0165a6427751")
+			(uuid "2d91a680-21e4-46ff-b9e5-6349f0fd0262")
 		)
 		(pin "2"
-			(uuid "11875d78-c917-4594-98bd-5ac3c193e635")
+			(uuid "1dbde0c2-f403-4c1d-8a43-7ebe57444cf6")
 		)
 		(instances
 			(project "shift-register-demo-board"
 				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
-					(reference "C1")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5874,6 +5900,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72a437ea-90d5-4527-a432-8dde306eee3a")
+		(property "Reference" "C1"
+			(at 45.72 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 43.18 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9714248a-b729-4ca2-8850-fd1dd698d012")
+		)
+		(pin "2"
+			(uuid "039df327-62b4-482a-be33-a8912dc9fac2")
+		)
+		(instances
+			(project "shift-register-demo-board"
+				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 88.9 168.91 0)
 		(unit 1)
@@ -6001,6 +6150,129 @@
 			(project "shift-register-demo-board"
 				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 43.18 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "786e0835-e6ed-44b0-bb35-3d9fdbe27ebd")
+		(property "Reference" "C15"
+			(at 45.72 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 45.72 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 43.18 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f440addf-199b-472f-9727-cba5d94b2f98")
+		)
+		(pin "2"
+			(uuid "70a7e39b-0faa-4dd0-8240-3d954dc812f0")
+		)
+		(instances
+			(project "shift-register-demo-board"
+				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6880,121 +7152,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 43.18 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "913e559a-80e2-4739-9a0e-1a948fab0330")
-		(property "Reference" "C17"
-			(at 45.72 142.2462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 45.72 144.7862 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 43.18 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b917af4f-1edd-4ffe-b629-0bc4a28bc4b9")
-		)
-		(pin "2"
-			(uuid "80692543-fd9c-4218-9658-62ca72e0ac50")
-		)
-		(instances
-			(project "shift-register-demo-board"
-				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
-					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC14")
 		(at 53.34 30.48 0)
 		(unit 1)
@@ -7161,121 +7318,6 @@
 			(project "shift-register-demo-board"
 				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93272786-aa40-40a9-8f88-fef06ab044fc")
-		(property "Reference" "C18"
-			(at 104.14 177.8062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 104.14 180.3462 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 101.6 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c76fa3d4-3e81-4578-8c15-9f15107d1d78")
-		)
-		(pin "2"
-			(uuid "de28e497-cfc4-4c83-9fd2-a9b29646f57e")
-		)
-		(instances
-			(project "shift-register-demo-board"
-				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
-					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7820,6 +7862,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 101.6 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "acd7de16-562a-47c0-89ed-72494c3f4430")
+		(property "Reference" "C18"
+			(at 103.632 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 103.632 180.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C14663"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MP" ""
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 101.6 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c40cde9e-5eee-4a70-a3dd-35898878c0c8")
+		)
+		(pin "2"
+			(uuid "3e5d2d48-bb02-4a91-a339-33d9d57ed029")
+		)
+		(instances
+			(project "shift-register-demo-board"
+				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 121.92 62.23 0)
 		(unit 1)
@@ -8139,121 +8304,6 @@
 			(project "shift-register-demo-board"
 				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 43.18 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ba658a63-c404-42e4-af46-1e32e7f8bdbd")
-		(property "Reference" "C11"
-			(at 45.72 35.5662 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 45.72 38.1062 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MP" ""
-			(at 43.18 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ecc4a2c-0631-417c-af2a-4f09f700ac07")
-		)
-		(pin "2"
-			(uuid "1fe35317-f958-40d3-b649-f4893d64948d")
-		)
-		(instances
-			(project "shift-register-demo-board"
-				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -9288,16 +9338,15 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 43.18 107.95 0)
+		(at 43.18 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6dd063d-5727-41a3-b6bb-689f37451a03")
-		(property "Reference" "C15"
-			(at 45.72 106.6862 0)
+		(uuid "ea881d8d-fd18-4014-9069-156ba2b6bd3c")
+		(property "Reference" "C17"
+			(at 45.466 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9306,7 +9355,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 45.72 109.2262 0)
+			(at 45.466 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9314,8 +9363,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 43.18 107.95 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9323,8 +9372,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/609/CL05B104KO5NNNC.pdf"
-			(at 43.18 107.95 0)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V"
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9333,7 +9382,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 43.18 107.95 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9341,8 +9390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics"
-			(at 43.18 107.95 0)
+		(property "Manufacturer" "YAGEO"
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9350,8 +9399,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B104KO5NNNC"
-			(at 43.18 107.95 0)
+		(property "Manufacturer Part Number" "CC0603KRX7R9BB104"
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9359,8 +9408,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 43.18 107.95 0)
+		(property "LCSC Part #" "C14663"
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9369,7 +9418,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 43.18 107.95 0)
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9378,7 +9427,16 @@
 			)
 		)
 		(property "MP" ""
-			(at 43.18 107.95 0)
+			(at 43.18 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 43.18 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9387,15 +9445,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "29894aec-9db4-4543-be4d-29802efc7822")
+			(uuid "17640e24-6b95-4e96-ab09-6c32acc5c486")
 		)
 		(pin "2"
-			(uuid "c49af011-e694-4f8a-be61-2c3e26c005b5")
+			(uuid "b80394e9-471c-49b5-83db-56ce60dc292f")
 		)
 		(instances
 			(project "shift-register-demo-board"
 				(path "/47ec96cb-c991-4fbd-b515-9767ac54263f/92fd41db-6a47-491e-a680-fec896fb61b2"
-					(reference "C15")
+					(reference "C17")
 					(unit 1)
 				)
 			)
