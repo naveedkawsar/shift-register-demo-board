@@ -589,13 +589,13 @@
 		)
 		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
 			(offset
-				(xyz 0 0 0)
+				(xyz -0.889 0 0.254)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -871,6 +871,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -3512,6 +3523,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -4324,6 +4346,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/TS-1187A-B-A-B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -5851,6 +5884,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -7271,6 +7315,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -8732,6 +8787,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -10453,6 +10519,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/TS-1187A-B-A-B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -12851,6 +12928,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3_Pad"
 		(layer "F.Cu")
@@ -13509,6 +13597,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -14061,6 +14160,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
@@ -14334,6 +14444,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -15453,6 +15574,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/TS-1187A-B-A-B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -16295,6 +16427,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "LED_SMD:LED_0603_1608Metric"
 		(layer "F.Cu")
@@ -16568,6 +16711,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -18642,6 +18796,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/TS-1187A-B-A-B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -21520,6 +21685,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/strip_tsw-112-07-l-d.stp"
+			(offset
+				(xyz 3.81 0 2.54)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -22345,6 +22521,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/TS-1187A-B-A-B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -23694,6 +23881,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
@@ -24560,6 +24758,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
 			)
 		)
 	)
@@ -25807,6 +26016,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/TS-1187A-B-A-B.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
 			)
 		)
 	)
@@ -27521,6 +27741,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
 		(layer "F.Cu")
@@ -28796,6 +29027,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KIPRJMOD}/lib/step/LED_0603.STEP"
+			(offset
+				(xyz -0.889 0 0.254)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 90)
+			)
+		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical"
 		(layer "F.Cu")
@@ -29311,6 +29553,17 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/lib/step/strip_tsw-112-07-l-d.stp"
+			(offset
+				(xyz 3.81 0 2.54)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 90)
 			)
 		)
 	)

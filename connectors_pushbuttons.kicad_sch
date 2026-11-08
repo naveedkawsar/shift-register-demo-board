@@ -2755,6 +2755,38 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 185.42 43.18)
+		(end 281.94 137.16)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 10d640c9-8d80-42c1-b39c-495daae1a13e)
+	)
+	(text "Headers"
+		(exclude_from_sim no)
+		(at 237.744 46.99 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "2fa7750b-cadc-4ca9-894c-798d82d69b3d")
+	)
+	(text "Pushbuttons"
+		(exclude_from_sim no)
+		(at 88.138 23.622 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "c38a52ec-6890-4861-87b9-9416ab8788b7")
+	)
 	(junction
 		(at 30.48 186.69)
 		(diameter 0)

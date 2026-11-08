@@ -2197,6 +2197,16 @@
 		)
 		(uuid "014afaff-7d81-4b0f-a5d8-2045875406a1")
 	)
+	(text "LEDs"
+		(exclude_from_sim no)
+		(at 76.2 19.304 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "112eb3a1-beb7-4281-b77f-00dda108bfd9")
+	)
 	(text "NOR Flash"
 		(exclude_from_sim no)
 		(at 214.884 29.21 0)
