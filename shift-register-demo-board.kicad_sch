@@ -2316,12 +2316,6 @@
 		(uuid "5b216b79-880e-4280-83ce-fe5c08369165")
 	)
 	(junction
-		(at 241.3 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c68c400-fd19-44c2-ae9a-23dcf8b00f83")
-	)
-	(junction
 		(at 59.69 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2332,6 +2326,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6abeba04-b5fc-4b33-81b6-e55f6b7e593d")
+	)
+	(junction
+		(at 241.3 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e132557-9dfc-443b-a144-d30e3abd1200")
 	)
 	(junction
 		(at 58.42 34.29)
@@ -2654,6 +2654,16 @@
 			(type default)
 		)
 		(uuid "12f76862-2c32-4338-a2b4-31041a8b2eb3")
+	)
+	(wire
+		(pts
+			(xy 241.3 92.71) (xy 241.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152cf437-855a-4f3b-aa07-95d0a4780273")
 	)
 	(wire
 		(pts
@@ -3417,16 +3427,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 92.71) (xy 241.3 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e04d5b9-9f6a-4be8-ad1b-e849194689da")
-	)
-	(wire
-		(pts
 			(xy 251.46 106.68) (xy 254 106.68)
 		)
 		(stroke
@@ -4157,7 +4157,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 92.71) (xy 237.49 92.71)
+			(xy 237.49 92.71) (xy 241.3 92.71)
 		)
 		(stroke
 			(width 0)
@@ -4567,6 +4567,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 92.71) (xy 242.57 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce089137-e354-45d0-aac7-866bca94392e")
+	)
+	(wire
+		(pts
 			(xy 69.85 71.12) (xy 68.58 71.12)
 		)
 		(stroke
@@ -4907,16 +4917,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 101.6) (xy 241.3 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f878581b-7be9-4a64-b9b3-76c9427655df")
-	)
-	(wire
-		(pts
 			(xy 96.52 134.62) (xy 106.68 134.62)
 		)
 		(stroke
@@ -5135,16 +5135,6 @@
 		)
 		(uuid "414215ab-c297-41dd-b29b-904bf4696ade")
 	)
-	(label "LED17_K"
-		(at 85.09 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4961fdbd-11b1-4422-add8-7974ae1d450a")
-	)
 	(label "LED5_A"
 		(at 97.79 63.5 0)
 		(effects
@@ -5234,16 +5224,6 @@
 			(justify left bottom)
 		)
 		(uuid "744d9da1-7ff2-434d-a64c-0288bcb76418")
-	)
-	(label "LED18_K"
-		(at 85.09 179.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7db0cd92-153d-49d5-8ca2-069e4b108101")
 	)
 	(label "LED12_A"
 		(at 97.79 125.73 0)
@@ -5551,6 +5531,28 @@
 			)
 		)
 	)
+	(global_label "LED18_K"
+		(shape input)
+		(at 83.82 179.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2484887c-405e-4084-ad46-f00a6b4e611e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.7311 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLASH_MISO"
 		(shape output)
 		(at 231.14 57.15 180)
@@ -5652,6 +5654,28 @@
 		(uuid "8d1d1fd2-7a88-4deb-a0bb-644bd0506f59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.5757 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED17_K"
+		(shape input)
+		(at 83.82 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0b8d5fe-d628-4775-a0c7-4b8c44fb050b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 72.7311 170.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13117,7 +13141,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b3e05572-0b7e-4dac-87d1-6e5e0387e25b")
 		(property "Reference" "U4"
 			(at 162.1633 101.6 0)
