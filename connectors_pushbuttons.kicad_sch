@@ -2777,6 +2777,16 @@
 		)
 		(uuid "2fa7750b-cadc-4ca9-894c-798d82d69b3d")
 	)
+	(text "Parallel-In-Serial-Out\nShift Register"
+		(exclude_from_sim no)
+		(at 149.86 97.282 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "4c4e96d4-d1bc-44c9-a043-2554f4ac709d")
+	)
 	(text "Pushbuttons"
 		(exclude_from_sim no)
 		(at 88.138 23.622 0)

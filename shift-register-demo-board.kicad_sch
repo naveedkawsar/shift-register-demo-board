@@ -2260,6 +2260,16 @@
 		)
 		(uuid "82176fb8-a939-480e-b8dc-0aa6e1834516")
 	)
+	(text "Serial-In-Parallel-Out\nShift Registers"
+		(exclude_from_sim no)
+		(at 45.72 163.576 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "854fb19c-e6c5-495f-881c-f68098291bd1")
+	)
 	(text "Real-Time Clock"
 		(exclude_from_sim no)
 		(at 200.66 88.392 0)
