@@ -510,7 +510,7 @@
       "idf": "",
       "netlist": "",
       "plot": "fabrication/",
-      "pos_files": "",
+      "pos_files": "fabrication/",
       "specctra_dsn": "",
       "step": "shift-register-demo-board.step",
       "svg": "",
